@@ -34,7 +34,6 @@ export default function App() {
   return (
     <div className="container">
       <h1>Image Upload Dashboard</h1>
-      // all are the same
       <ImageUpload addImage={addImage} />
 
       <ImageGallery
